@@ -1,0 +1,148 @@
+2022-06-07 21:00:08,562 INFO    MainThread:5529 [wandb_setup.py:_flush():76] Loading settings from /home/shuffle/.config/wandb/settings
+2022-06-07 21:00:08,562 INFO    MainThread:5529 [wandb_setup.py:_flush():76] Loading settings from /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/settings
+2022-06-07 21:00:08,562 INFO    MainThread:5529 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-06-07 21:00:08,562 INFO    MainThread:5529 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-06-07 21:00:08,563 INFO    MainThread:5529 [wandb_init.py:_log_setup():428] Logging user logs to /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/logs/debug.log
+2022-06-07 21:00:08,563 INFO    MainThread:5529 [wandb_init.py:_log_setup():429] Logging internal logs to /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/logs/debug-internal.log
+2022-06-07 21:00:08,563 INFO    MainThread:5529 [wandb_init.py:_jupyter_setup():378] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fca9db5f850>
+2022-06-07 21:00:08,563 INFO    MainThread:5529 [wandb_init.py:init():462] calling init triggers
+2022-06-07 21:00:08,563 INFO    MainThread:5529 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {}
+2022-06-07 21:00:08,564 INFO    MainThread:5529 [wandb_init.py:init():515] starting backend
+2022-06-07 21:00:08,564 INFO    MainThread:5529 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-06-07 21:00:08,579 INFO    MainThread:5529 [backend.py:ensure_launched():217] starting backend process...
+2022-06-07 21:00:08,595 INFO    MainThread:5529 [backend.py:ensure_launched():222] started backend process with pid: 6339
+2022-06-07 21:00:08,597 INFO    MainThread:5529 [wandb_init.py:init():525] backend started and connected
+2022-06-07 21:00:08,645 INFO    MainThread:5529 [wandb_run.py:_label_probe_notebook():1089] probe notebook
+2022-06-07 21:00:08,647 INFO    MainThread:5529 [wandb_run.py:_label_probe_notebook():1099] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-06-07 21:00:08,647 INFO    MainThread:5529 [wandb_init.py:init():596] updated telemetry
+2022-06-07 21:00:08,681 INFO    MainThread:5529 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2022-06-07 21:00:11,103 INFO    MainThread:5529 [wandb_run.py:_on_init():1924] communicating current version
+2022-06-07 21:00:11,256 INFO    MainThread:5529 [wandb_run.py:_on_init():1928] got version response 
+2022-06-07 21:00:11,256 INFO    MainThread:5529 [wandb_init.py:init():662] starting run threads in backend
+2022-06-07 21:00:16,295 INFO    MainThread:5529 [wandb_run.py:_console_start():1898] atexit reg
+2022-06-07 21:00:16,296 INFO    MainThread:5529 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.WRAP
+2022-06-07 21:00:16,297 INFO    MainThread:5529 [wandb_run.py:_redirect():1808] Wrapping output streams.
+2022-06-07 21:00:16,323 INFO    MainThread:5529 [wandb_run.py:_redirect():1832] Redirects installed.
+2022-06-07 21:00:16,323 INFO    MainThread:5529 [wandb_init.py:init():688] run started, returning control to user process
+2022-06-07 21:00:16,324 INFO    MainThread:5529 [wandb_watch.py:watch():47] Watching
+2022-06-07 21:00:16,326 INFO    MainThread:5529 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:00:16,326 INFO    MainThread:5529 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:00:22,281 INFO    MainThread:5529 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:00:22,290 INFO    MainThread:5529 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:00:22,290 INFO    MainThread:5529 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:00:28,827 INFO    MainThread:5529 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:00:28,828 INFO    MainThread:5529 [wandb_watch.py:watch():47] Watching
+2022-06-07 21:00:28,829 INFO    MainThread:5529 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:00:28,830 INFO    MainThread:5529 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:01:17,290 INFO    MainThread:5529 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:01:18,317 INFO    MainThread:5529 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:01:18,317 INFO    MainThread:5529 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:01:22,972 INFO    MainThread:5529 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:01:22,975 INFO    MainThread:5529 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:01:22,976 INFO    MainThread:5529 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:01:23,390 INFO    MainThread:5529 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:01:23,394 INFO    MainThread:5529 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:01:23,396 INFO    MainThread:5529 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:01:27,259 INFO    MainThread:5529 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:01:27,290 INFO    MainThread:5529 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:01:27,290 INFO    MainThread:5529 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:01:32,839 INFO    MainThread:5529 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:01:33,199 INFO    MainThread:5529 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:01:33,199 INFO    MainThread:5529 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:01:43,713 INFO    MainThread:5529 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:01:43,831 INFO    MainThread:5529 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:01:43,831 INFO    MainThread:5529 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:01:48,755 INFO    MainThread:5529 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:02:59,882 INFO    MainThread:5529 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:02:59,882 INFO    MainThread:5529 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:03:20,861 INFO    MainThread:5529 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:03:20,866 INFO    MainThread:5529 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:03:20,866 INFO    MainThread:5529 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:03:22,441 INFO    MainThread:5529 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:04:52,190 INFO    MainThread:5529 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:04:52,191 INFO    MainThread:5529 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:05:35,981 INFO    MainThread:5529 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:05:36,791 INFO    MainThread:5529 [wandb_watch.py:watch():47] Watching
+2022-06-07 21:05:36,792 INFO    MainThread:5529 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:05:36,792 INFO    MainThread:5529 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:05:55,136 INFO    MainThread:5529 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:05:55,274 INFO    MainThread:5529 [wandb_setup.py:_flush():76] Loading settings from /home/shuffle/.config/wandb/settings
+2022-06-07 21:05:55,274 INFO    MainThread:5529 [wandb_setup.py:_flush():76] Loading settings from /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/settings
+2022-06-07 21:05:55,274 INFO    MainThread:5529 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-06-07 21:05:55,274 INFO    MainThread:5529 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-06-07 21:05:55,274 INFO    MainThread:5529 [wandb_init.py:_log_setup():428] Logging user logs to /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210555-1zv9wk4t/logs/debug.log
+2022-06-07 21:05:55,275 INFO    MainThread:5529 [wandb_init.py:_log_setup():429] Logging internal logs to /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210555-1zv9wk4t/logs/debug-internal.log
+2022-06-07 21:05:55,275 INFO    MainThread:5529 [wandb_init.py:init():462] calling init triggers
+2022-06-07 21:05:55,275 INFO    MainThread:5529 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {}
+2022-06-07 21:05:55,275 INFO    MainThread:5529 [wandb_init.py:init():481] re-initializing run, found existing run on stack: 27gdni52
+2022-06-07 21:05:55,300 ERROR   MainThread:5529 [wandb_init.py:init():1026] error
+Traceback (most recent call last):
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 999, in init
+    run = wi.init()
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 494, in init
+    self._wl._global_run_stack[-1].finish()
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 256, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 222, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1678, in finish
+    return self._finish(exit_code, quiet)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1684, in _finish
+    tel.feature.finish = True
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/telemetry.py", line 41, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 577, in _telemetry_callback
+    self._telemetry_flush()
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 588, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 74, in _publish_telemetry
+    self._publish(rec)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_queue.py", line 49, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+2022-06-07 21:05:59,201 INFO    MainThread:5529 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:05:59,202 INFO    MainThread:5529 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:06:51,671 INFO    MainThread:5529 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:06:51,759 ERROR   MainThread:5529 [wandb_init.py:init():1026] error
+Traceback (most recent call last):
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 996, in init
+    wi.setup(kwargs)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 168, in setup
+    tel.feature.set_init_tags = True
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/telemetry.py", line 41, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 577, in _telemetry_callback
+    self._telemetry_flush()
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 588, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 74, in _publish_telemetry
+    self._publish(rec)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_queue.py", line 49, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+2022-06-07 21:06:53,998 INFO    MainThread:5529 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:06:53,999 INFO    MainThread:5529 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:09:00,915 INFO    MainThread:5529 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:09:01,018 ERROR   MainThread:5529 [wandb_init.py:init():1026] error
+Traceback (most recent call last):
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 996, in init
+    wi.setup(kwargs)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 168, in setup
+    tel.feature.set_init_tags = True
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/telemetry.py", line 41, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 577, in _telemetry_callback
+    self._telemetry_flush()
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 588, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 74, in _publish_telemetry
+    self._publish(rec)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_queue.py", line 49, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+2022-06-07 21:09:03,199 INFO    MainThread:5529 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:09:03,199 INFO    MainThread:5529 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:09:36,814 INFO    MainThread:5529 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 0
+2022-06-07 21:09:36,816 INFO    MainThread:5529 [wandb_run.py:_restore():1839] restore

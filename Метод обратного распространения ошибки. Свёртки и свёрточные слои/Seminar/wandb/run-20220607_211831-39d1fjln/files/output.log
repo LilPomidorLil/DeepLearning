@@ -1,0 +1,15 @@
+ConvNeuralNetwork(
+  (conv_linear_relu_stack): Sequential(
+    (0): Conv2d(1, 10, kernel_size=(5, 5), stride=(1, 1))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=4, stride=4, padding=0, dilation=1, ceil_mode=False)
+    (3): Flatten(start_dim=1, end_dim=-1)
+    (4): Linear(in_features=360, out_features=128, bias=True)
+    (5): ReLU()
+    (6): Linear(in_features=128, out_features=10, bias=True)
+  )
+)
+Epoch 1
+--------------------
+Epoch 2
+--------------------

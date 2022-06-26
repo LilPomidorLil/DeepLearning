@@ -1,0 +1,208 @@
+2022-06-07 21:00:10,797 INFO    MainThread:6339 [internal.py:wandb_internal():90] W&B internal server running at pid: 6339, started at: 2022-06-07 21:00:10.797014
+2022-06-07 21:00:10,800 INFO    WriterThread:6339 [datastore.py:open_for_write():75] open: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/run-27gdni52.wandb
+2022-06-07 21:00:10,804 DEBUG   SenderThread:6339 [sender.py:send():232] send: header
+2022-06-07 21:00:10,805 DEBUG   SenderThread:6339 [sender.py:send():232] send: run
+2022-06-07 21:00:11,104 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: check_version
+2022-06-07 21:00:11,116 INFO    SenderThread:6339 [dir_watcher.py:__init__():197] watching files in: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files
+2022-06-07 21:00:11,117 INFO    SenderThread:6339 [sender.py:_start_run_threads():811] run started: 27gdni52 with start time 1654624808
+2022-06-07 21:00:11,117 DEBUG   SenderThread:6339 [sender.py:send():232] send: summary
+2022-06-07 21:00:11,117 INFO    SenderThread:6339 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-07 21:00:11,117 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: check_version
+2022-06-07 21:00:11,263 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: run_start
+2022-06-07 21:00:11,265 DEBUG   HandlerThread:6339 [meta.py:__init__():35] meta init
+2022-06-07 21:00:11,265 DEBUG   HandlerThread:6339 [meta.py:__init__():49] meta init done
+2022-06-07 21:00:11,265 DEBUG   HandlerThread:6339 [meta.py:probe():209] probe
+2022-06-07 21:00:11,268 DEBUG   HandlerThread:6339 [meta.py:_setup_git():199] setup git
+2022-06-07 21:00:11,290 DEBUG   HandlerThread:6339 [meta.py:_setup_git():206] setup git done
+2022-06-07 21:00:11,290 DEBUG   HandlerThread:6339 [meta.py:_save_pip():53] save pip
+2022-06-07 21:00:11,291 DEBUG   HandlerThread:6339 [meta.py:_save_pip():67] save pip done
+2022-06-07 21:00:11,292 DEBUG   HandlerThread:6339 [meta.py:_save_conda():74] save conda
+2022-06-07 21:00:12,121 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_created():244] file/dir created: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/conda-environment.yaml
+2022-06-07 21:00:12,122 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_created():244] file/dir created: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/wandb-summary.json
+2022-06-07 21:00:12,122 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_created():244] file/dir created: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/requirements.txt
+2022-06-07 21:00:17,124 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_created():244] file/dir created: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:00:22,694 DEBUG   HandlerThread:6339 [meta.py:_save_conda():84] save conda done
+2022-06-07 21:00:22,695 DEBUG   HandlerThread:6339 [meta.py:probe():247] probe done
+2022-06-07 21:00:22,704 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:00:22,705 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:00:22,705 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:00:22,705 INFO    HandlerThread:6339 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:00:22,794 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:00:22,794 INFO    HandlerThread:6339 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:00:22,795 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:00:22,795 INFO    HandlerThread:6339 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:00:22,947 DEBUG   SenderThread:6339 [sender.py:send():232] send: telemetry
+2022-06-07 21:00:22,947 DEBUG   SenderThread:6339 [sender.py:send():232] send: telemetry
+2022-06-07 21:00:22,948 DEBUG   SenderThread:6339 [sender.py:send():232] send: files
+2022-06-07 21:00:22,950 INFO    SenderThread:6339 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-06-07 21:00:22,951 DEBUG   SenderThread:6339 [sender.py:send():232] send: stats
+2022-06-07 21:00:22,951 DEBUG   SenderThread:6339 [sender.py:send():232] send: stats
+2022-06-07 21:00:23,127 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/conda-environment.yaml
+2022-06-07 21:00:23,128 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:00:23,128 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_created():244] file/dir created: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/wandb-metadata.json
+2022-06-07 21:00:23,755 INFO    Thread-12 :6339 [upload_job.py:push():132] Uploaded file /tmp/tmpemgysulawandb/1cafp077-wandb-metadata.json
+2022-06-07 21:00:28,831 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:00:28,831 INFO    HandlerThread:6339 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:00:28,832 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:00:28,833 INFO    HandlerThread:6339 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:00:28,835 DEBUG   SenderThread:6339 [sender.py:send():232] send: stats
+2022-06-07 21:00:36,289 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:00:36,289 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:00:42,136 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/config.yaml
+2022-06-07 21:00:51,543 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:00:51,544 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:01:06,813 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:01:06,814 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:01:17,294 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:01:17,294 INFO    HandlerThread:6339 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:01:18,319 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:01:18,319 INFO    HandlerThread:6339 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:01:18,400 DEBUG   SenderThread:6339 [sender.py:send():232] send: stats
+2022-06-07 21:01:19,156 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:01:22,065 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:01:22,066 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:01:22,975 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:01:22,975 INFO    HandlerThread:6339 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:01:22,977 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:01:22,977 INFO    HandlerThread:6339 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:01:22,981 DEBUG   SenderThread:6339 [sender.py:send():232] send: stats
+2022-06-07 21:01:23,395 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:01:23,395 INFO    HandlerThread:6339 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:01:23,397 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:01:23,398 INFO    HandlerThread:6339 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:01:23,500 DEBUG   SenderThread:6339 [sender.py:send():232] send: stats
+2022-06-07 21:01:27,270 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:01:27,271 INFO    HandlerThread:6339 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:01:27,291 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:01:27,291 INFO    HandlerThread:6339 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:01:27,374 DEBUG   SenderThread:6339 [sender.py:send():232] send: stats
+2022-06-07 21:01:29,161 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:01:32,842 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:01:32,842 INFO    HandlerThread:6339 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:01:33,200 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:01:33,200 INFO    HandlerThread:6339 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:01:33,247 DEBUG   SenderThread:6339 [sender.py:send():232] send: stats
+2022-06-07 21:01:37,314 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:01:37,315 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:01:43,716 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:01:43,717 INFO    HandlerThread:6339 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:01:43,832 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:01:43,832 INFO    HandlerThread:6339 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:01:43,922 DEBUG   SenderThread:6339 [sender.py:send():232] send: stats
+2022-06-07 21:01:48,759 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:01:48,760 INFO    HandlerThread:6339 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:01:51,172 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:01:52,571 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:01:52,571 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:01:55,184 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:01:59,186 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:02:03,194 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:02:07,814 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:02:07,815 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:02:09,204 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:02:13,210 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:02:17,028 DEBUG   SenderThread:6339 [sender.py:send():232] send: stats
+2022-06-07 21:02:17,213 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:02:21,236 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:02:23,083 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:02:23,084 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:02:25,243 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:02:31,254 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:02:36,163 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:02:36,165 DEBUG   SenderThread:6339 [sender.py:send():232] send: history
+2022-06-07 21:02:36,166 DEBUG   SenderThread:6339 [sender.py:send():232] send: summary
+2022-06-07 21:02:36,166 INFO    SenderThread:6339 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-07 21:02:36,268 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/wandb-summary.json
+2022-06-07 21:02:37,269 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:02:38,896 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:02:38,897 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:02:38,919 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:02:38,920 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:02:38,921 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:02:38,922 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:02:38,924 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:02:38,926 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:02:39,270 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:02:43,272 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:02:47,281 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:02:47,744 DEBUG   SenderThread:6339 [sender.py:send():232] send: stats
+2022-06-07 21:02:51,312 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:02:54,151 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:02:54,152 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:02:56,351 WARNING MainThread:6339 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-06-07 21:02:57,316 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:02:59,883 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:02:59,883 INFO    HandlerThread:6339 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:02:59,975 DEBUG   SenderThread:6339 [sender.py:send():232] send: stats
+2022-06-07 21:03:09,442 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:03:09,442 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:03:20,866 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:03:20,866 INFO    HandlerThread:6339 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:03:20,867 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:03:20,867 INFO    HandlerThread:6339 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:03:20,871 DEBUG   SenderThread:6339 [sender.py:send():232] send: stats
+2022-06-07 21:03:22,444 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:03:22,445 INFO    HandlerThread:6339 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:03:24,678 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:03:24,679 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:03:25,335 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:03:29,338 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:03:33,342 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:03:37,344 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:03:40,000 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:03:40,003 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:03:43,376 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:03:49,396 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:03:51,358 DEBUG   SenderThread:6339 [sender.py:send():232] send: stats
+2022-06-07 21:03:55,280 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:03:55,281 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:03:55,416 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:03:55,717 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:03:55,719 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:03:55,722 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:03:55,725 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:03:55,730 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:03:55,731 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:04:01,436 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:04:05,439 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:04:10,884 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:04:10,884 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:04:11,444 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:04:17,435 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:04:17,440 DEBUG   SenderThread:6339 [sender.py:send():232] send: history
+2022-06-07 21:04:17,442 DEBUG   SenderThread:6339 [sender.py:send():232] send: summary
+2022-06-07 21:04:17,447 INFO    SenderThread:6339 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-07 21:04:17,473 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/wandb-summary.json
+2022-06-07 21:04:19,475 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:04:23,358 DEBUG   SenderThread:6339 [sender.py:send():232] send: stats
+2022-06-07 21:04:25,484 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:04:26,166 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:04:26,166 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:04:29,486 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:04:33,515 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:04:39,516 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:04:41,443 DEBUG   HandlerThread:6339 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:04:41,444 DEBUG   SenderThread:6339 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:04:45,524 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:04:49,531 INFO    Thread-7  :6339 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:04:49,929 WARNING MainThread:6339 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2022-06-07 21:04:49,929 ERROR   MainThread:6339 [internal.py:wandb_internal():156] Internal process interrupted.
+2022-06-07 21:04:50,727 INFO    HandlerThread:6339 [handler.py:finish():806] shutting down handler
+2022-06-07 21:04:50,728 INFO    SenderThread:6339 [sender.py:finish():1110] shutting down sender
+2022-06-07 21:04:50,728 INFO    SenderThread:6339 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-06-07 21:04:50,752 INFO    WriterThread:6339 [datastore.py:close():279] close: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/run-27gdni52.wandb
+2022-06-07 21:04:51,557 INFO    SenderThread:6339 [dir_watcher.py:finish():342] scan: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files
+2022-06-07 21:04:51,557 INFO    SenderThread:6339 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/wandb-metadata.json wandb-metadata.json
+2022-06-07 21:04:51,557 INFO    SenderThread:6339 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log output.log
+2022-06-07 21:04:51,558 INFO    SenderThread:6339 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/config.yaml config.yaml
+2022-06-07 21:04:51,558 INFO    SenderThread:6339 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/conda-environment.yaml conda-environment.yaml
+2022-06-07 21:04:51,572 INFO    SenderThread:6339 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/wandb-summary.json wandb-summary.json
+2022-06-07 21:04:51,573 INFO    SenderThread:6339 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/requirements.txt requirements.txt
+2022-06-07 21:04:51,574 INFO    SenderThread:6339 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-07 21:04:51,574 INFO    SenderThread:6339 [file_pusher.py:join():150] waiting for file pusher
+2022-06-07 21:04:52,354 INFO    Thread-25 :6339 [upload_job.py:push():132] Uploaded file /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/conda-environment.yaml
+2022-06-07 21:04:52,379 INFO    Thread-26 :6339 [upload_job.py:push():132] Uploaded file /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/wandb-summary.json
+2022-06-07 21:04:52,391 INFO    Thread-24 :6339 [upload_job.py:push():132] Uploaded file /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/config.yaml
+2022-06-07 21:04:52,422 INFO    Thread-23 :6339 [upload_job.py:push():132] Uploaded file /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/output.log
+2022-06-07 21:04:52,603 INFO    Thread-27 :6339 [upload_job.py:push():132] Uploaded file /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_210008-27gdni52/files/requirements.txt
+2022-06-07 21:04:53,319 INFO    MainThread:6339 [internal.py:handle_exit():80] Internal process exited

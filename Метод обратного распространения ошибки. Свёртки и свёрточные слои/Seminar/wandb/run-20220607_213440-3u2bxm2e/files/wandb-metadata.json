@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.15.0-35-generic-x86_64-with-glibc2.35",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-06-07T18:34:42.878407",
+    "startedAt": "2022-06-07T18:34:40.613767",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "\u041c\u0435\u0442\u043e\u0434 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0433\u043e \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u043e\u0448\u0438\u0431\u043a\u0438. \u0421\u0432\u0451\u0440\u0442\u043a\u0438 \u0438 \u0441\u0432\u0451\u0440\u0442\u043e\u0447\u043d\u044b\u0435 \u0441\u043b\u043e\u0438/Seminar/sem-02.ipynb",
+    "root": "/home/shuffle/DL-IAD-HSE/DeepLearning",
+    "git": {
+        "remote": "https://github.com/shuffle-true/DeepLearning.git",
+        "commit": "c96dc31e70473939a49681bcf439fca2dc32437a"
+    },
+    "email": "rozhinthe@ya.ru",
+    "host": "shuffle-RC530-RC730",
+    "username": "shuffle",
+    "executable": "/home/shuffle/anaconda3/bin/python"
+}

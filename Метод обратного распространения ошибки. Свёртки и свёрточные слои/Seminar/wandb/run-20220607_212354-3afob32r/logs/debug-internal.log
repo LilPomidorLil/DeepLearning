@@ -1,0 +1,749 @@
+2022-06-07 21:23:54,746 INFO    BackendThr:10602 [internal.py:wandb_internal():90] W&B internal server running at pid: 10602, started at: 2022-06-07 21:23:54.745280
+2022-06-07 21:23:54,746 INFO    MainThread:10602 [wandb_init.py:init():525] backend started and connected
+2022-06-07 21:23:54,747 DEBUG   MainThread:10602 [config_util.py:dict_from_config_file():100] no default config file found in config-defaults.yaml
+2022-06-07 21:23:54,778 INFO    MainThread:10602 [wandb_run.py:_label_probe_notebook():1089] probe notebook
+2022-06-07 21:23:54,782 INFO    MainThread:10602 [wandb_run.py:_label_probe_notebook():1099] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-06-07 21:23:54,783 INFO    MainThread:10602 [wandb_init.py:init():596] updated telemetry
+2022-06-07 21:23:54,785 DEBUG   SenderThread:10602 [sender.py:send():232] send: header
+2022-06-07 21:23:54,785 INFO    WriterThread:10602 [datastore.py:open_for_write():75] open: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/run-3afob32r.wandb
+2022-06-07 21:23:54,807 INFO    MainThread:10602 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2022-06-07 21:23:54,809 DEBUG   SenderThread:10602 [sender.py:send():232] send: run
+2022-06-07 21:23:55,961 INFO    MainThread:10602 [wandb_run.py:_on_init():1924] communicating current version
+2022-06-07 21:23:55,963 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: check_version
+2022-06-07 21:23:55,971 INFO    SenderThread:10602 [dir_watcher.py:__init__():197] watching files in: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files
+2022-06-07 21:23:55,971 INFO    SenderThread:10602 [sender.py:_start_run_threads():811] run started: 3afob32r with start time 1654626234
+2022-06-07 21:23:55,971 DEBUG   SenderThread:10602 [sender.py:send():232] send: summary
+2022-06-07 21:23:55,972 INFO    SenderThread:10602 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-07 21:23:55,972 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: check_version
+2022-06-07 21:23:56,111 INFO    MainThread:10602 [wandb_run.py:_on_init():1928] got version response 
+2022-06-07 21:23:56,111 INFO    MainThread:10602 [wandb_init.py:init():662] starting run threads in backend
+2022-06-07 21:23:56,113 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: run_start
+2022-06-07 21:23:56,115 DEBUG   HandlerThread:10602 [meta.py:__init__():35] meta init
+2022-06-07 21:23:56,115 DEBUG   HandlerThread:10602 [meta.py:__init__():49] meta init done
+2022-06-07 21:23:56,115 DEBUG   HandlerThread:10602 [meta.py:probe():209] probe
+2022-06-07 21:23:56,118 DEBUG   HandlerThread:10602 [meta.py:_setup_git():199] setup git
+2022-06-07 21:23:56,160 DEBUG   HandlerThread:10602 [meta.py:_setup_git():206] setup git done
+2022-06-07 21:23:56,160 DEBUG   HandlerThread:10602 [meta.py:_save_pip():53] save pip
+2022-06-07 21:23:56,161 DEBUG   HandlerThread:10602 [meta.py:_save_pip():67] save pip done
+2022-06-07 21:23:56,161 DEBUG   HandlerThread:10602 [meta.py:_save_conda():74] save conda
+2022-06-07 21:23:56,977 INFO    Thread-15 :10602 [dir_watcher.py:_on_file_created():244] file/dir created: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/conda-environment.yaml
+2022-06-07 21:23:56,978 INFO    Thread-15 :10602 [dir_watcher.py:_on_file_created():244] file/dir created: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/wandb-summary.json
+2022-06-07 21:23:56,978 INFO    Thread-15 :10602 [dir_watcher.py:_on_file_created():244] file/dir created: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/requirements.txt
+2022-06-07 21:24:01,127 INFO    MainThread:10602 [wandb_run.py:_console_start():1898] atexit reg
+2022-06-07 21:24:01,128 INFO    MainThread:10602 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.WRAP
+2022-06-07 21:24:01,129 INFO    MainThread:10602 [wandb_run.py:_redirect():1808] Wrapping output streams.
+2022-06-07 21:24:01,131 INFO    MainThread:10602 [wandb_run.py:_redirect():1832] Redirects installed.
+2022-06-07 21:24:01,131 INFO    MainThread:10602 [wandb_init.py:init():688] run started, returning control to user process
+2022-06-07 21:24:01,138 INFO    MainThread:10602 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:24:01,138 INFO    MainThread:10602 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:24:01,150 INFO    MainThread:10602 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:24:01,153 INFO    MainThread:10602 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:24:01,154 INFO    MainThread:10602 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:24:01,167 INFO    MainThread:10602 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:24:01,169 INFO    MainThread:10602 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:24:01,170 INFO    MainThread:10602 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:24:01,183 INFO    MainThread:10602 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:24:01,194 INFO    MainThread:10602 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:24:01,194 INFO    MainThread:10602 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:24:01,201 INFO    MainThread:10602 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:24:01,202 INFO    MainThread:10602 [wandb_watch.py:watch():47] Watching
+2022-06-07 21:24:01,205 INFO    MainThread:10602 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:24:01,205 INFO    MainThread:10602 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:24:01,213 INFO    MainThread:10602 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:24:01,216 INFO    MainThread:10602 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:24:01,217 INFO    MainThread:10602 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:24:01,229 INFO    MainThread:10602 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:24:01,974 INFO    Thread-15 :10602 [dir_watcher.py:_on_file_created():244] file/dir created: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/output.log
+2022-06-07 21:24:03,976 INFO    Thread-15 :10602 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/output.log
+2022-06-07 21:24:17,626 DEBUG   HandlerThread:10602 [meta.py:_save_conda():84] save conda done
+2022-06-07 21:24:17,627 DEBUG   HandlerThread:10602 [meta.py:probe():247] probe done
+2022-06-07 21:24:17,636 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:24:17,637 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:24:17,637 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:24:17,637 INFO    HandlerThread:10602 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:24:17,698 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:24:17,698 INFO    HandlerThread:10602 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:24:17,700 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:24:17,700 INFO    HandlerThread:10602 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:24:17,710 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:24:17,710 INFO    HandlerThread:10602 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:24:17,711 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:24:17,711 INFO    HandlerThread:10602 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:24:17,720 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:24:17,721 INFO    HandlerThread:10602 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:24:17,723 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:24:17,723 INFO    HandlerThread:10602 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:24:17,731 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:24:17,731 INFO    HandlerThread:10602 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:24:17,732 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:24:17,732 INFO    HandlerThread:10602 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:24:17,745 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:24:17,745 INFO    HandlerThread:10602 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:24:17,746 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:24:17,746 INFO    HandlerThread:10602 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:24:17,761 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:24:17,761 INFO    HandlerThread:10602 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:24:17,895 DEBUG   SenderThread:10602 [sender.py:send():232] send: telemetry
+2022-06-07 21:24:17,896 DEBUG   SenderThread:10602 [sender.py:send():232] send: telemetry
+2022-06-07 21:24:17,897 DEBUG   SenderThread:10602 [sender.py:send():232] send: files
+2022-06-07 21:24:17,899 INFO    SenderThread:10602 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-06-07 21:24:17,902 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:24:17,902 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:24:17,903 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:24:17,904 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:24:17,904 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:24:17,905 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:24:18,045 INFO    Thread-15 :10602 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/conda-environment.yaml
+2022-06-07 21:24:18,046 INFO    Thread-15 :10602 [dir_watcher.py:_on_file_created():244] file/dir created: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/wandb-metadata.json
+2022-06-07 21:24:18,715 INFO    Thread-31 :10602 [upload_job.py:push():132] Uploaded file /tmp/tmpzom6_254wandb/4qgyec08-wandb-metadata.json
+2022-06-07 21:24:21,166 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:24:21,166 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:24:26,075 INFO    Thread-15 :10602 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/config.yaml
+2022-06-07 21:24:36,433 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:24:36,433 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:24:44,634 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:24:44,636 DEBUG   SenderThread:10602 [sender.py:send():232] send: history
+2022-06-07 21:24:44,636 DEBUG   SenderThread:10602 [sender.py:send():232] send: summary
+2022-06-07 21:24:44,644 INFO    SenderThread:10602 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-07 21:24:45,158 INFO    Thread-15 :10602 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/wandb-summary.json
+2022-06-07 21:24:46,860 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:24:51,696 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:24:51,697 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:25:06,999 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:25:07,000 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:25:18,396 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:25:22,284 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:25:22,284 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:25:32,696 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:25:32,698 DEBUG   SenderThread:10602 [sender.py:send():232] send: history
+2022-06-07 21:25:32,698 DEBUG   SenderThread:10602 [sender.py:send():232] send: summary
+2022-06-07 21:25:32,702 INFO    SenderThread:10602 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-07 21:25:33,285 INFO    Thread-15 :10602 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/wandb-summary.json
+2022-06-07 21:25:37,566 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:25:37,566 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:25:49,527 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:25:52,797 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:25:52,798 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:26:06,806 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:26:06,808 DEBUG   SenderThread:10602 [sender.py:send():232] send: history
+2022-06-07 21:26:06,808 DEBUG   SenderThread:10602 [sender.py:send():232] send: summary
+2022-06-07 21:26:06,809 INFO    SenderThread:10602 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-07 21:26:07,364 INFO    Thread-15 :10602 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/wandb-summary.json
+2022-06-07 21:26:08,046 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:26:08,047 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:26:10,212 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:26:10,213 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:26:10,215 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:26:10,218 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:26:10,224 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:26:10,225 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-07 21:26:21,620 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:26:23,358 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:26:23,364 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:26:24,462 INFO    MainThread:10602 [wandb_init.py:_pause_backend():341] pausing backend
+2022-06-07 21:26:24,462 INFO    MainThread:10602 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:26:24,463 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: pause
+2022-06-07 21:26:24,463 INFO    HandlerThread:10602 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-07 21:26:24,548 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:26:38,702 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:26:38,702 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:26:54,073 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:26:54,073 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:27:09,307 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:27:09,308 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:27:24,542 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:27:24,543 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:27:39,805 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:27:39,805 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:27:55,085 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:27:55,086 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:28:10,378 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:28:10,378 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:28:25,617 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:28:25,618 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:28:40,863 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:28:40,864 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:28:56,136 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:28:56,137 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:29:11,394 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:29:11,394 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:29:26,640 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:29:26,641 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:29:41,915 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:29:41,916 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:29:57,156 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:29:57,157 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:30:12,397 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:30:12,398 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:30:27,707 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:30:27,707 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:30:42,973 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:30:42,973 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:30:58,237 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:30:58,237 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:31:13,500 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:31:13,500 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:31:18,076 INFO    MainThread:10602 [wandb_init.py:_resume_backend():350] resuming backend
+2022-06-07 21:31:18,089 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: resume
+2022-06-07 21:31:18,093 INFO    HandlerThread:10602 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-07 21:31:18,129 DEBUG   SenderThread:10602 [sender.py:send():232] send: telemetry
+2022-06-07 21:31:18,134 INFO    MainThread:10602 [wandb_setup.py:_flush():76] Loading settings from /home/shuffle/.config/wandb/settings
+2022-06-07 21:31:18,134 INFO    MainThread:10602 [wandb_setup.py:_flush():76] Loading settings from /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/settings
+2022-06-07 21:31:18,135 INFO    MainThread:10602 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'start_method': 'thread'}
+2022-06-07 21:31:18,135 INFO    MainThread:10602 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-06-07 21:31:18,135 INFO    MainThread:10602 [wandb_init.py:_log_setup():428] Logging user logs to /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/logs/debug.log
+2022-06-07 21:31:18,136 INFO    MainThread:10602 [wandb_init.py:_log_setup():429] Logging internal logs to /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/logs/debug-internal.log
+2022-06-07 21:31:18,136 INFO    MainThread:10602 [wandb_init.py:init():462] calling init triggers
+2022-06-07 21:31:18,136 INFO    MainThread:10602 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'architecture': 'FCNN', 'dataset_id': 'MNIST'}
+2022-06-07 21:31:18,137 INFO    MainThread:10602 [wandb_init.py:init():481] re-initializing run, found existing run on stack: 3afob32r
+2022-06-07 21:31:18,139 INFO    MainThread:10602 [wandb_run.py:_finish():1685] finishing run shuffle-krakens/pytorch-demo/3afob32r
+2022-06-07 21:31:18,140 INFO    MainThread:10602 [jupyter.py:save_history():435] not saving jupyter history
+2022-06-07 21:31:18,140 INFO    MainThread:10602 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-06-07 21:31:18,141 INFO    MainThread:10602 [wandb_init.py:_jupyter_teardown():360] cleaning up jupyter logic
+2022-06-07 21:31:18,141 DEBUG   SenderThread:10602 [sender.py:send():232] send: telemetry
+2022-06-07 21:31:18,142 INFO    MainThread:10602 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 0
+2022-06-07 21:31:18,143 INFO    MainThread:10602 [wandb_run.py:_restore():1839] restore
+2022-06-07 21:31:18,144 DEBUG   SenderThread:10602 [sender.py:send():232] send: telemetry
+2022-06-07 21:31:18,720 DEBUG   SenderThread:10602 [sender.py:send():232] send: exit
+2022-06-07 21:31:18,725 INFO    SenderThread:10602 [sender.py:send_exit():368] handling exit code: 0
+2022-06-07 21:31:18,726 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:31:18,726 INFO    SenderThread:10602 [sender.py:send_exit():370] handling runtime: 149
+2022-06-07 21:31:18,730 INFO    SenderThread:10602 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-07 21:31:18,731 INFO    SenderThread:10602 [sender.py:send_exit():376] send defer
+2022-06-07 21:31:18,732 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:31:18,733 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:31:18,733 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-07 21:31:18,734 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1026
+  total_bytes: 1026
+}
+
+2022-06-07 21:31:18,735 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:31:18,735 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-06-07 21:31:18,741 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 1
+2022-06-07 21:31:18,743 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:31:18,743 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-07 21:31:18,835 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:31:18,835 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-06-07 21:31:18,836 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 2
+2022-06-07 21:31:18,836 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:31:18,837 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:31:18,837 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 2
+2022-06-07 21:31:18,840 DEBUG   SenderThread:10602 [sender.py:send():232] send: history
+2022-06-07 21:31:18,842 DEBUG   SenderThread:10602 [sender.py:send():232] send: summary
+2022-06-07 21:31:18,844 INFO    SenderThread:10602 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-07 21:31:18,845 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:31:18,845 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-06-07 21:31:18,845 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 3
+2022-06-07 21:31:18,846 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:31:18,846 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 3
+2022-06-07 21:31:18,846 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:31:18,847 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:31:18,846 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-06-07 21:31:18,847 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 4
+2022-06-07 21:31:18,847 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:31:18,848 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:31:18,848 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 4
+2022-06-07 21:31:18,848 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1026
+  total_bytes: 1026
+}
+
+2022-06-07 21:31:18,850 DEBUG   SenderThread:10602 [sender.py:send():232] send: summary
+2022-06-07 21:31:18,852 INFO    SenderThread:10602 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-07 21:31:18,852 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:31:18,852 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-06-07 21:31:18,852 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 5
+2022-06-07 21:31:18,853 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:31:18,853 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 5
+2022-06-07 21:31:18,853 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:31:18,853 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-06-07 21:31:18,950 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:31:18,958 INFO    Thread-15 :10602 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/wandb-summary.json
+2022-06-07 21:31:18,959 INFO    Thread-15 :10602 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/output.log
+2022-06-07 21:31:19,198 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 6
+2022-06-07 21:31:19,199 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:31:19,200 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:31:19,200 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 6
+2022-06-07 21:31:19,201 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1026
+  total_bytes: 1026
+}
+
+2022-06-07 21:31:19,202 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:31:19,203 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-06-07 21:31:19,203 INFO    SenderThread:10602 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-06-07 21:31:19,303 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:31:19,959 INFO    Thread-15 :10602 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/config.yaml
+2022-06-07 21:31:19,961 INFO    SenderThread:10602 [dir_watcher.py:finish():342] scan: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files
+2022-06-07 21:31:19,962 INFO    SenderThread:10602 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/wandb-metadata.json wandb-metadata.json
+2022-06-07 21:31:19,962 INFO    SenderThread:10602 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/output.log output.log
+2022-06-07 21:31:19,963 INFO    SenderThread:10602 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/config.yaml config.yaml
+2022-06-07 21:31:19,972 INFO    SenderThread:10602 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/conda-environment.yaml conda-environment.yaml
+2022-06-07 21:31:19,978 INFO    SenderThread:10602 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/wandb-summary.json wandb-summary.json
+2022-06-07 21:31:19,984 INFO    SenderThread:10602 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/requirements.txt requirements.txt
+2022-06-07 21:31:19,985 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 7
+2022-06-07 21:31:19,985 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:31:19,991 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:31:19,992 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 1026
+  total_bytes: 34289
+}
+
+2022-06-07 21:31:19,997 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 7
+2022-06-07 21:31:20,000 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:31:20,001 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-06-07 21:31:20,001 INFO    SenderThread:10602 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-07 21:31:20,100 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:31:20,101 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:31:20,101 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 1026
+  total_bytes: 34289
+}
+
+2022-06-07 21:31:20,202 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:31:20,203 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:31:20,203 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 1026
+  total_bytes: 34289
+}
+
+2022-06-07 21:31:20,304 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:31:20,305 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:31:20,306 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 1429
+  total_bytes: 34289
+}
+
+2022-06-07 21:31:20,408 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:31:20,409 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:31:20,411 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 34289
+  total_bytes: 34289
+}
+
+2022-06-07 21:31:20,516 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:31:20,517 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:31:20,518 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 34289
+  total_bytes: 34289
+}
+
+2022-06-07 21:31:20,621 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:31:20,621 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:31:20,623 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 34289
+  total_bytes: 34289
+}
+
+2022-06-07 21:31:20,669 INFO    Thread-34 :10602 [upload_job.py:push():132] Uploaded file /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/config.yaml
+2022-06-07 21:31:20,681 INFO    Thread-33 :10602 [upload_job.py:push():132] Uploaded file /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/output.log
+2022-06-07 21:31:20,724 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:31:20,725 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:31:20,725 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 34289
+  total_bytes: 34289
+}
+
+2022-06-07 21:31:20,729 INFO    Thread-37 :10602 [upload_job.py:push():132] Uploaded file /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/requirements.txt
+2022-06-07 21:31:20,746 INFO    Thread-36 :10602 [upload_job.py:push():132] Uploaded file /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/wandb-summary.json
+2022-06-07 21:31:20,748 INFO    Thread-35 :10602 [upload_job.py:push():132] Uploaded file /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/files/conda-environment.yaml
+2022-06-07 21:31:20,826 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:31:20,827 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:31:20,827 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 34289
+  total_bytes: 34289
+}
+
+2022-06-07 21:31:20,928 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:31:20,928 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:31:20,929 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 34289
+  total_bytes: 34289
+}
+
+2022-06-07 21:31:20,948 INFO    Thread-14 :10602 [sender.py:transition_state():389] send defer: 8
+2022-06-07 21:31:20,949 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:31:20,949 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 8
+2022-06-07 21:31:20,950 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:31:20,950 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-06-07 21:31:21,030 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:31:21,845 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 9
+2022-06-07 21:31:21,845 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:31:21,846 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:31:21,846 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 34289
+  total_bytes: 34289
+}
+
+2022-06-07 21:31:21,846 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 9
+2022-06-07 21:31:21,847 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:31:21,847 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-06-07 21:31:21,847 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 10
+2022-06-07 21:31:21,848 DEBUG   SenderThread:10602 [sender.py:send():232] send: final
+2022-06-07 21:31:21,848 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:31:21,848 DEBUG   SenderThread:10602 [sender.py:send():232] send: footer
+2022-06-07 21:31:21,849 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 10
+2022-06-07 21:31:21,849 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:31:21,849 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-06-07 21:31:21,947 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:31:21,948 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:31:21,948 INFO    SenderThread:10602 [file_pusher.py:join():150] waiting for file pusher
+2022-06-07 21:31:22,466 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 34289
+  total_bytes: 34289
+}
+local_info {
+}
+
+2022-06-07 21:31:22,568 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: sampled_history
+2022-06-07 21:31:22,571 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: get_summary
+2022-06-07 21:31:22,573 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: shutdown
+2022-06-07 21:31:22,573 INFO    HandlerThread:10602 [handler.py:finish():806] shutting down handler
+2022-06-07 21:31:22,849 INFO    WriterThread:10602 [datastore.py:close():279] close: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_212354-3afob32r/run-3afob32r.wandb
+2022-06-07 21:31:23,466 INFO    SenderThread:10602 [sender.py:finish():1110] shutting down sender
+2022-06-07 21:31:23,469 INFO    SenderThread:10602 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-07 21:31:23,469 INFO    SenderThread:10602 [file_pusher.py:join():150] waiting for file pusher
+2022-06-07 21:31:23,575 INFO    MainThread:10602 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2022-06-07 21:31:23,576 INFO    MainThread:10602 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2022-06-07 21:31:23,583 INFO    MainThread:10602 [wandb_run.py:_footer_sync_info():3060] logging synced files
+2022-06-07 21:31:23,588 INFO    MainThread:10602 [wandb_init.py:init():515] starting backend
+2022-06-07 21:31:23,591 INFO    MainThread:10602 [backend.py:ensure_launched():217] starting backend process...
+2022-06-07 21:31:23,592 INFO    MainThread:10602 [backend.py:ensure_launched():222] started backend process with pid: 0
+2022-06-07 21:31:23,592 INFO    MainThread:10602 [wandb_init.py:init():525] backend started and connected
+2022-06-07 21:31:23,593 INFO    BackendThr:10602 [internal.py:wandb_internal():90] W&B internal server running at pid: 10602, started at: 2022-06-07 21:31:23.592164
+2022-06-07 21:31:23,593 DEBUG   MainThread:10602 [config_util.py:dict_from_config_file():100] no default config file found in config-defaults.yaml
+2022-06-07 21:31:23,629 INFO    MainThread:10602 [wandb_run.py:_label_probe_notebook():1089] probe notebook
+2022-06-07 21:31:23,629 INFO    MainThread:10602 [wandb_run.py:_label_probe_notebook():1099] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-06-07 21:31:23,630 INFO    MainThread:10602 [wandb_init.py:init():596] updated telemetry
+2022-06-07 21:31:23,633 DEBUG   SenderThread:10602 [sender.py:send():232] send: header
+2022-06-07 21:31:23,633 INFO    WriterThread:10602 [datastore.py:open_for_write():75] open: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/run-1wkabkby.wandb
+2022-06-07 21:31:23,671 INFO    MainThread:10602 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2022-06-07 21:31:23,673 DEBUG   SenderThread:10602 [sender.py:send():232] send: run
+2022-06-07 21:31:23,975 INFO    MainThread:10602 [wandb_run.py:_on_init():1924] communicating current version
+2022-06-07 21:31:23,976 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: check_version
+2022-06-07 21:31:23,978 INFO    SenderThread:10602 [dir_watcher.py:__init__():197] watching files in: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files
+2022-06-07 21:31:23,978 INFO    SenderThread:10602 [sender.py:_start_run_threads():811] run started: 1wkabkby with start time 1654626683
+2022-06-07 21:31:23,978 DEBUG   SenderThread:10602 [sender.py:send():232] send: summary
+2022-06-07 21:31:23,979 INFO    SenderThread:10602 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-07 21:31:23,979 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: check_version
+2022-06-07 21:31:24,114 INFO    MainThread:10602 [wandb_run.py:_on_init():1928] got version response 
+2022-06-07 21:31:24,115 INFO    MainThread:10602 [wandb_init.py:init():662] starting run threads in backend
+2022-06-07 21:31:24,118 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: run_start
+2022-06-07 21:31:24,122 DEBUG   HandlerThread:10602 [meta.py:__init__():35] meta init
+2022-06-07 21:31:24,123 DEBUG   HandlerThread:10602 [meta.py:__init__():49] meta init done
+2022-06-07 21:31:24,123 DEBUG   HandlerThread:10602 [meta.py:probe():209] probe
+2022-06-07 21:31:24,127 DEBUG   HandlerThread:10602 [meta.py:_setup_git():199] setup git
+2022-06-07 21:31:24,202 DEBUG   HandlerThread:10602 [meta.py:_setup_git():206] setup git done
+2022-06-07 21:31:24,203 DEBUG   HandlerThread:10602 [meta.py:_save_pip():53] save pip
+2022-06-07 21:31:24,204 DEBUG   HandlerThread:10602 [meta.py:_save_pip():67] save pip done
+2022-06-07 21:31:24,204 DEBUG   HandlerThread:10602 [meta.py:_save_conda():74] save conda
+2022-06-07 21:31:24,982 INFO    Thread-46 :10602 [dir_watcher.py:_on_file_created():244] file/dir created: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/requirements.txt
+2022-06-07 21:31:24,982 INFO    Thread-46 :10602 [dir_watcher.py:_on_file_created():244] file/dir created: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/conda-environment.yaml
+2022-06-07 21:31:24,983 INFO    Thread-46 :10602 [dir_watcher.py:_on_file_created():244] file/dir created: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/wandb-summary.json
+2022-06-07 21:31:29,131 INFO    MainThread:10602 [wandb_run.py:_console_start():1898] atexit reg
+2022-06-07 21:31:29,132 INFO    MainThread:10602 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.WRAP
+2022-06-07 21:31:29,132 INFO    MainThread:10602 [wandb_run.py:_redirect():1808] Wrapping output streams.
+2022-06-07 21:31:29,133 INFO    MainThread:10602 [wandb_run.py:_redirect():1832] Redirects installed.
+2022-06-07 21:31:29,134 INFO    MainThread:10602 [wandb_init.py:init():688] run started, returning control to user process
+2022-06-07 21:31:29,985 INFO    Thread-46 :10602 [dir_watcher.py:_on_file_created():244] file/dir created: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/output.log
+2022-06-07 21:31:34,814 DEBUG   HandlerThread:10602 [meta.py:_save_conda():84] save conda done
+2022-06-07 21:31:34,815 DEBUG   HandlerThread:10602 [meta.py:probe():247] probe done
+2022-06-07 21:31:34,817 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:31:34,818 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:31:34,988 INFO    Thread-46 :10602 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/conda-environment.yaml
+2022-06-07 21:31:34,988 INFO    Thread-46 :10602 [dir_watcher.py:_on_file_created():244] file/dir created: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/wandb-metadata.json
+2022-06-07 21:31:35,075 DEBUG   SenderThread:10602 [sender.py:send():232] send: telemetry
+2022-06-07 21:31:35,075 DEBUG   SenderThread:10602 [sender.py:send():232] send: files
+2022-06-07 21:31:35,076 INFO    SenderThread:10602 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-06-07 21:31:35,758 INFO    Thread-56 :10602 [upload_job.py:push():132] Uploaded file /tmp/tmpelx32hupwandb/3bjnubsb-wandb-metadata.json
+2022-06-07 21:31:49,131 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:31:49,132 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:31:52,205 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:31:55,002 INFO    Thread-46 :10602 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/config.yaml
+2022-06-07 21:32:04,391 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:32:04,391 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:32:19,633 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:32:19,633 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:32:22,293 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:32:34,872 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:32:34,873 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:32:50,135 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:32:50,137 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:32:52,387 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:33:05,402 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:33:05,402 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:33:20,634 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:33:20,634 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:33:22,470 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:33:35,876 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:33:35,877 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:33:51,137 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:33:51,138 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:33:52,560 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:34:06,426 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:34:06,426 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:34:21,678 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 21:34:21,678 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 21:34:22,641 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:34:23,230 INFO    MainThread:10602 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 0
+2022-06-07 21:34:23,238 INFO    MainThread:10602 [wandb_run.py:_restore():1839] restore
+2022-06-07 21:34:23,244 DEBUG   SenderThread:10602 [sender.py:send():232] send: telemetry
+2022-06-07 21:34:23,344 DEBUG   SenderThread:10602 [sender.py:send():232] send: exit
+2022-06-07 21:34:23,346 INFO    SenderThread:10602 [sender.py:send_exit():368] handling exit code: 0
+2022-06-07 21:34:23,347 INFO    SenderThread:10602 [sender.py:send_exit():370] handling runtime: 179
+2022-06-07 21:34:23,350 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:34:23,350 INFO    SenderThread:10602 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-07 21:34:23,351 INFO    SenderThread:10602 [sender.py:send_exit():376] send defer
+2022-06-07 21:34:23,351 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:34:23,354 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:34:23,354 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1026
+  total_bytes: 1026
+}
+
+2022-06-07 21:34:23,355 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-07 21:34:23,369 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:34:23,370 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-06-07 21:34:23,372 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 1
+2022-06-07 21:34:23,375 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:34:23,376 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-07 21:34:23,448 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:34:23,449 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-06-07 21:34:23,450 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 2
+2022-06-07 21:34:23,450 DEBUG   SenderThread:10602 [sender.py:send():232] send: stats
+2022-06-07 21:34:23,451 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:34:23,452 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 2
+2022-06-07 21:34:23,453 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:34:23,453 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-06-07 21:34:23,453 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 3
+2022-06-07 21:34:23,454 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:34:23,454 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 3
+2022-06-07 21:34:23,455 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:34:23,456 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-06-07 21:34:23,456 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 4
+2022-06-07 21:34:23,458 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:34:23,459 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 4
+2022-06-07 21:34:23,460 DEBUG   SenderThread:10602 [sender.py:send():232] send: summary
+2022-06-07 21:34:23,462 INFO    SenderThread:10602 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-07 21:34:23,463 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:34:23,464 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-06-07 21:34:23,464 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 5
+2022-06-07 21:34:23,466 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:34:23,466 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 5
+2022-06-07 21:34:23,467 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:34:23,468 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-06-07 21:34:23,491 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:34:23,797 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 6
+2022-06-07 21:34:23,798 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:34:23,799 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:34:23,801 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 6
+2022-06-07 21:34:23,802 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1026
+  total_bytes: 1026
+}
+
+2022-06-07 21:34:23,802 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:34:23,803 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-06-07 21:34:23,804 INFO    SenderThread:10602 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-06-07 21:34:23,904 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:34:24,040 INFO    SenderThread:10602 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/config.yaml
+2022-06-07 21:34:24,041 INFO    SenderThread:10602 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/wandb-summary.json
+2022-06-07 21:34:24,042 INFO    SenderThread:10602 [dir_watcher.py:finish():342] scan: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files
+2022-06-07 21:34:24,043 INFO    SenderThread:10602 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/wandb-metadata.json wandb-metadata.json
+2022-06-07 21:34:24,044 INFO    SenderThread:10602 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/output.log output.log
+2022-06-07 21:34:24,044 INFO    SenderThread:10602 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/config.yaml config.yaml
+2022-06-07 21:34:24,045 INFO    SenderThread:10602 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/conda-environment.yaml conda-environment.yaml
+2022-06-07 21:34:24,052 INFO    SenderThread:10602 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/wandb-summary.json wandb-summary.json
+2022-06-07 21:34:24,054 INFO    SenderThread:10602 [dir_watcher.py:finish():356] scan save: /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/requirements.txt requirements.txt
+2022-06-07 21:34:24,064 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 7
+2022-06-07 21:34:24,072 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:34:24,073 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:34:24,073 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 7
+2022-06-07 21:34:24,075 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1026
+  total_bytes: 22594
+}
+
+2022-06-07 21:34:24,075 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:34:24,075 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-06-07 21:34:24,078 INFO    SenderThread:10602 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-07 21:34:24,179 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:34:24,180 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:34:24,181 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1026
+  total_bytes: 22594
+}
+
+2022-06-07 21:34:24,283 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:34:24,284 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:34:24,286 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1026
+  total_bytes: 22594
+}
+
+2022-06-07 21:34:24,395 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:34:24,397 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:34:24,400 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1026
+  total_bytes: 22594
+}
+
+2022-06-07 21:34:24,502 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:34:24,503 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:34:24,505 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 22594
+  total_bytes: 22594
+}
+
+2022-06-07 21:34:24,609 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:34:24,610 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:34:24,611 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 22594
+  total_bytes: 22594
+}
+
+2022-06-07 21:34:24,712 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:34:24,713 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:34:24,715 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 22594
+  total_bytes: 22594
+}
+
+2022-06-07 21:34:24,754 INFO    Thread-57 :10602 [upload_job.py:push():132] Uploaded file /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/config.yaml
+2022-06-07 21:34:24,793 INFO    Thread-59 :10602 [upload_job.py:push():132] Uploaded file /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/wandb-summary.json
+2022-06-07 21:34:24,817 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:34:24,817 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:34:24,818 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 22594
+  total_bytes: 22594
+}
+
+2022-06-07 21:34:24,835 INFO    Thread-58 :10602 [upload_job.py:push():132] Uploaded file /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/conda-environment.yaml
+2022-06-07 21:34:24,838 INFO    Thread-60 :10602 [upload_job.py:push():132] Uploaded file /home/shuffle/DL-IAD-HSE/DeepLearning/Метод обратного распространения ошибки. Свёртки и свёрточные слои/Seminar/wandb/run-20220607_213118-1wkabkby/files/requirements.txt
+2022-06-07 21:34:24,919 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:34:24,919 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:34:24,920 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 22594
+  total_bytes: 22594
+}
+
+2022-06-07 21:34:25,021 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:34:25,021 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:34:25,022 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 22594
+  total_bytes: 22594
+}
+
+2022-06-07 21:34:25,040 INFO    Thread-45 :10602 [sender.py:transition_state():389] send defer: 8
+2022-06-07 21:34:25,040 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:34:25,040 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 8
+2022-06-07 21:34:25,041 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:34:25,041 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-06-07 21:34:25,123 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-07 21:34:25,676 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 9
+2022-06-07 21:34:25,676 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: poll_exit
+2022-06-07 21:34:25,677 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:34:25,677 INFO    MainThread:10602 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 22594
+  total_bytes: 22594
+}
+
+2022-06-07 21:34:25,677 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 9
+2022-06-07 21:34:25,678 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:34:25,678 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-06-07 21:34:25,678 INFO    SenderThread:10602 [sender.py:transition_state():389] send defer: 10
+2022-06-07 21:34:25,679 DEBUG   SenderThread:10602 [sender.py:send():232] send: final
+2022-06-07 21:34:25,679 DEBUG   SenderThread:10602 [sender.py:send():232] send: footer
+2022-06-07 21:34:25,680 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-06-07 21:34:25,680 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 10
+2022-06-07 21:34:25,680 DEBUG   SenderThread:10602 [sender.py:send_request():246] send_request: defer
+2022-06-07 21:34:25,680 INFO    SenderThread:10602 [sender.py:send_request_defer():385] handle sender defer: 10

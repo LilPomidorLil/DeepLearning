@@ -1,0 +1,164 @@
+ConvNeuralNetwork(
+  (conv_linear_relu_stack): Sequential(
+    (0): Conv2d(1, 10, kernel_size=(5, 5), stride=(1, 1))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=4, stride=4, padding=0, dilation=1, ceil_mode=False)
+    (3): Flatten(start_dim=1, end_dim=-1)
+    (4): Linear(in_features=360, out_features=128, bias=True)
+    (5): ReLU()
+    (6): Linear(in_features=128, out_features=10, bias=True)
+  )
+)
+Epoch 1
+--------------------
+Epoch 1
+--------------------
+Epoch 1
+--------------------
+loss: 2.349027  [    0/60000]
+loss: 2.289455  [ 6400/60000]
+loss: 2.348816  [12800/60000]
+loss: 2.356622  [19200/60000]
+loss: 2.311224  [25600/60000]
+loss: 2.360563  [32000/60000]
+loss: 2.351391  [38400/60000]
+loss: 2.377381  [44800/60000]
+loss: 2.341481  [51200/60000]
+loss: 2.356241  [57600/60000]
+Test Error:
+ Accuracy: 8.3%, Avg loss: 2.345909
+Epoch 2
+--------------------
+loss: 2.357363  [    0/60000]
+loss: 2.302659  [ 6400/60000]
+loss: 2.343326  [12800/60000]
+loss: 2.309931  [19200/60000]
+loss: 2.305659  [25600/60000]
+Epoch 1
+--------------------
+loss: 2.316818  [    0/60000]
+loss: 1.377707  [ 6400/60000]
+loss: 0.756213  [12800/60000]
+loss: 0.482424  [19200/60000]
+loss: 0.458807  [25600/60000]
+loss: 0.370919  [32000/60000]
+loss: 0.266727  [38400/60000]
+loss: 0.269396  [44800/60000]
+loss: 0.191065  [51200/60000]
+loss: 0.094271  [57600/60000]
+Test Error:
+ Accuracy: 93.4%, Avg loss: 0.234252
+Epoch 2
+--------------------
+loss: 0.318432  [    0/60000]
+loss: 0.275590  [ 6400/60000]
+loss: 0.268910  [12800/60000]
+loss: 0.161874  [19200/60000]
+loss: 0.229543  [25600/60000]
+loss: 0.305764  [32000/60000]
+loss: 0.111458  [38400/60000]
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/home/shuffle/anaconda3/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/home/shuffle/anaconda3/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 170, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 127, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 395, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/home/shuffle/anaconda3/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/home/shuffle/anaconda3/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 138, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 405, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Error in callback <function _WandbInit._resume_backend at 0x7fca9be11af0> (for pre_run_cell):
+Error in callback <function _WandbInit._pause_backend at 0x7fca9b5d1af0> (for post_run_cell):
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+Traceback (most recent call last):
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 999, in init
+    run = wi.init()
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 494, in init
+    self._wl._global_run_stack[-1].finish()
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 256, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 222, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1678, in finish
+    return self._finish(exit_code, quiet)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1684, in _finish
+    tel.feature.finish = True
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/telemetry.py", line 41, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 577, in _telemetry_callback
+    self._telemetry_flush()
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 588, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 74, in _publish_telemetry
+    self._publish(rec)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_queue.py", line 49, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Error in callback <function _WandbInit._resume_backend at 0x7fca9be11af0> (for pre_run_cell):
+Problem at: /tmp/ipykernel_5529/1127624546.py 6 <cell line: 6>
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Abnormal program exit
+Error in callback <function _WandbInit._pause_backend at 0x7fca9b5d1af0> (for post_run_cell):
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+Traceback (most recent call last):
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 996, in init
+    wi.setup(kwargs)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 168, in setup
+    tel.feature.set_init_tags = True
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/telemetry.py", line 41, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 577, in _telemetry_callback
+    self._telemetry_flush()
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 588, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 74, in _publish_telemetry
+    self._publish(rec)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_queue.py", line 49, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Error in callback <function _WandbInit._resume_backend at 0x7fca9be11af0> (for pre_run_cell):
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Abnormal program exit
+Error in callback <function _WandbInit._pause_backend at 0x7fca9b5d1af0> (for post_run_cell):
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+Traceback (most recent call last):
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 996, in init
+    wi.setup(kwargs)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 168, in setup
+    tel.feature.set_init_tags = True
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/telemetry.py", line 41, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 577, in _telemetry_callback
+    self._telemetry_flush()
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 588, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 74, in _publish_telemetry
+    self._publish(rec)
+  File "/home/shuffle/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_queue.py", line 49, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Error in callback <function _WandbInit._resume_backend at 0x7fca9be11af0> (for pre_run_cell):
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Abnormal program exit
+Error in callback <function _WandbInit._pause_backend at 0x7fca9b5d1af0> (for post_run_cell):
