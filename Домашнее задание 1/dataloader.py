@@ -6,6 +6,11 @@ TRAINSIZE = 463715
 
 class YearPredictionDataSet(torch.utils.data.Dataset):
     def __init__(self, csv_name: str, train: bool):
+        """
+
+        :param csv_name:
+        :param train:
+        """
         # TODO: если потребуется то добавить во-сть трансформации данных
         
         if train:
@@ -20,8 +25,8 @@ class YearPredictionDataSet(torch.utils.data.Dataset):
         return self.sample_target.shape[0]
 
     def __getitem__(self, item):
-        sample = {'sample': torch.tensor(self.data[item], dtype=torch.float64),
-              'target': self.label[item]}
+        sample = {'sample': torch.tensor(self.data[item], dtype=torch.float),
+              'target': torch.tensor(self.label[item], dtype=torch.float)}
 
         return sample
 
